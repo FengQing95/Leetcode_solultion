@@ -8,9 +8,6 @@ class Solution:
             n = len(s)
 
             while ptr < n - 2:
-                if ptr == n - 2:
-                    break
-
                 if s[ptr] != s[ptr + 2] and s[ptr] != s[ptr + 1]:
                     ptr += 1
                     continue
